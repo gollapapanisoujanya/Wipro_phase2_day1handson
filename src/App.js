@@ -7,11 +7,13 @@ import Studntf from './Components/Studntf';
 import Studentc from './Components/Studentc';
 import Display from './Components/Display';
 import Buttons from './Components/Buttons';
-
+import Login from './Components2.js/Login';
+import Welcome from './Components2.js/Welcome';
+import LoginC from './Components2.js/LoginC';
 function App() {
   return (
     <div className="App">
-     <Funs1/>
+     {/* <Funs1/>
      <Funs2/>
      <Funs3/>
      <Funs4/>
@@ -22,7 +24,9 @@ function App() {
      <Studntf name='ramya' address='hyderabad' scores={500}/>
      <Studentc name='ramya' address='hyderabad' scores={500}/>
      <Display name='krish' address='delhi'/>
-     <Buttons/>
+     <Buttons/> */}
+     <Login/>
+     <LoginC/>
     </div>
   );
 }
